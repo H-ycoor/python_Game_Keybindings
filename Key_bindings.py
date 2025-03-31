@@ -59,7 +59,7 @@ class KeyBindingApp:
         tk.Button(self.root, text="保存配置", command=self.save_config).pack(pady=10)
         
         # 状态标签
-        self.status_label = tk.Label(self.root, text="注意：此程序完全开源免费。\n github.com/qqqwwweee1234567890/KeyBindingTool", fg="gray")
+        self.status_label = tk.Label(self.root, text="注意：此程序完全开源免费。\n GitHub仓库地址: https://github.com/H-ycoor/python_Game_Keybindings", fg="gray")
         self.status_label.pack(pady=5)
 
     def register_hotkeys(self):
